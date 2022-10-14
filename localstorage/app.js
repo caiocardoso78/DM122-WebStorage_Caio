@@ -1,5 +1,8 @@
 const form = document.querySelector('form');
 form.addEventListener('submit', (event)=>{
 event.preventDefault();
-alert('Submitted successfuly');
+const form = event.target;
+const formData = {
+};
+console.log({formData});
 });
